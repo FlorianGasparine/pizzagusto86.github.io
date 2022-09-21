@@ -1,0 +1,22 @@
+{
+  "name": "projet_mathieu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/main.scss:./styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianGasparine/pizzagusto86.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorianGasparine/pizzagusto86.github.io/issues"
+  },
+  "homepage": "https://github.com/FlorianGasparine/pizzagusto86.github.io#readme",
+  "dependencies": {
+    "sass": "^1.54.9"
+  }
+}
