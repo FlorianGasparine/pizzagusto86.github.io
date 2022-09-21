@@ -13,3 +13,19 @@
     }
   }
 }
+
+.article {
+  display: flex;
+  justify-content: center;
+
+  &__phone {
+    display: block;
+    margin: 25px auto 17px auto;
+    font-size: 40px;
+    line-height: 50px;
+    color: #14931d;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #d81111b3;
+    letter-spacing: -2px;
+    font-weight: 800;
+  }
+}
