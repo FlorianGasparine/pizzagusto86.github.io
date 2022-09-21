@@ -1,0 +1,15 @@
+.header {
+  margin: 0 auto;
+  width: 300px;
+
+  @media screen and (min-width: 768px) {
+    width: 400px;
+  }
+  &__logo {
+    width: 300px;
+
+    @media screen and (min-width: 768px) {
+      width: 400px;
+    }
+  }
+}
