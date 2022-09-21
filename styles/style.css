@@ -24,11 +24,13 @@
   }
 }
 
-.article {
+.section__homepage {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
-.article__phone {
+.section__homepage .article__phone {
   display: block;
   margin: 25px auto 17px auto;
   font-size: 40px;
@@ -37,6 +39,21 @@
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px rgba(216, 17, 17, 0.7019607843);
   letter-spacing: -2px;
   font-weight: 800;
+}
+
+.aside__location {
+  margin: 50px auto;
+}
+.aside__location__list {
+  text-align: center;
+  list-style: none;
+}
+.aside__location__list__element {
+  margin-bottom: 10px;
+}
+.aside__location__list__element--title {
+  font-weight: 800;
+  color: rgba(216, 17, 17, 0.7019607843);
 }
 
 /*# sourceMappingURL=style.css.map */
