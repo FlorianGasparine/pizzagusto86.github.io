@@ -1,15 +1,15 @@
 .header {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 300px;
 
   @media screen and (min-width: 768px) {
-    width: 400px;
+    width: 350px;
   }
   &__logo {
     width: 300px;
 
     @media screen and (min-width: 768px) {
-      width: 400px;
+      width: 350px;
     }
   }
 }
@@ -23,13 +23,17 @@
   .article {
     &__phone {
       display: block;
-      margin: 25px auto 17px auto;
+      margin: 40px auto 17px auto;
       font-size: 40px;
       line-height: 50px;
       color: #14931d;
       text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #d81111b3;
       letter-spacing: -2px;
       font-weight: 800;
+
+      &:hover {
+        text-shadow: 0 13.36px 8.896px #dcc298b0, 0 -2px 1px #d81111dc;
+      }
     }
   }
 }
@@ -47,6 +51,27 @@
         font-weight: 800;
         color: $primaryColor;
       }
+    }
+  }
+}
+
+.aside__pizza {
+  margin-top: 42px;
+  &__link {
+    padding: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $tertiaryColor;
+    box-shadow: 1px 2px 2px 1px #00000060;
+
+    &:hover {
+      background-color: darken($color: $tertiaryColor, $amount: 2);
+      box-shadow: 1px 2px 2px 1px #0000008a;
+      transition: 250ms;
     }
   }
 }
