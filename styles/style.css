@@ -60,20 +60,24 @@
 }
 
 .aside__pizza {
-  margin: 42px auto 42px auto;
+  margin: 0px auto 20px auto;
 }
 .aside__pizza__link {
+  text-decoration: none;
+}
+.aside__pizza__btn {
   padding: 15px;
   font-weight: 800;
   font-size: 20px;
   color: white;
   border-radius: 15px;
+  text-decoration: none;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #ffb800;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.3764705882);
 }
-.aside__pizza__link:hover {
+.aside__pizza__btn:hover {
   background-color: #f5b100;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5411764706);
   transition: 250ms;

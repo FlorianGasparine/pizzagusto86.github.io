@@ -56,18 +56,21 @@
 }
 
 .aside__pizza {
-  margin: 42px auto 42px auto;
+  margin: 0px auto 20px auto;
   &__link {
+    text-decoration: none;
+  }
+  &__btn {
     padding: 15px;
     font-weight: 800;
     font-size: 20px;
     color: white;
     border-radius: 15px;
+    text-decoration: none;
     text-transform: uppercase;
     text-decoration: none;
     background-color: $tertiaryColor;
     box-shadow: 1px 2px 2px 1px #00000060;
-
     &:hover {
       background-color: darken($color: $tertiaryColor, $amount: 2);
       box-shadow: 1px 2px 2px 1px #0000008a;
