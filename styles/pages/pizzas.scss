@@ -16,6 +16,7 @@
 }
 
 .section__icone {
+  position: relative;
   margin: 60px auto 10px auto;
   display: flex;
   justify-content: space-evenly;
@@ -37,4 +38,23 @@
     width: 35px;
     background-color: transparent;
   }
+}
+
+.section__pizzas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  &--positionTitle {
+    margin: 30px auto 20px 10px;
+  }
+}
+
+.article__pizzas {
+  display: block;
+  width: 200px;
+  height: auto;
+  border: 1px solid red;
+  padding: 20px;
+  background: rgba(255, 0, 0, 0.25);
 }
