@@ -24,7 +24,7 @@
     text-decoration: none;
     &__phone {
       display: block;
-      margin: 40px auto 17px auto;
+      margin: 25px auto 15px auto;
       font-size: 40px;
       line-height: 50px;
       color: #14931d;
@@ -51,8 +51,12 @@
       margin-bottom: 10px;
 
       &--title {
+        margin: 0px;
         font-weight: 800;
         color: $primaryColor;
+      }
+      &--subTitle {
+        margin-top: 3px;
       }
     }
   }

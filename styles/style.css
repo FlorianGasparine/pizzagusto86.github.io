@@ -35,7 +35,7 @@ body {
 }
 .section__homepage .article__phone {
   display: block;
-  margin: 40px auto 17px auto;
+  margin: 25px auto 15px auto;
   font-size: 40px;
   line-height: 50px;
   color: #14931d;
@@ -60,8 +60,12 @@ body {
   margin-bottom: 10px;
 }
 .aside__location__list__element--title {
+  margin: 0px;
   font-weight: 800;
   color: rgba(216, 17, 17, 0.7019607843);
+}
+.aside__location__list__element--subTitle {
+  margin-top: 3px;
 }
 
 .aside__pizza {
