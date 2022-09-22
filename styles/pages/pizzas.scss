@@ -21,10 +21,16 @@
   justify-content: space-evenly;
   flex-flow: wrap;
 
-  &--background {
-    padding: 10px;
+  &--styleLink {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
     border-radius: 15px;
     background-color: #fac56f53;
+
+    &--focused {
+      background-color: $tertiaryColor;
+    }
   }
 
   &--imgSize {

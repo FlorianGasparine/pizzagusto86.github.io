@@ -107,10 +107,15 @@
   justify-content: space-evenly;
   flex-flow: wrap;
 }
-.section__icone--background {
-  padding: 10px;
+.section__icone--styleLink {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
   border-radius: 15px;
   background-color: rgba(250, 197, 111, 0.3254901961);
+}
+.section__icone--styleLink--focused {
+  background-color: #ffb800;
 }
 .section__icone--imgSize {
   width: 35px;
