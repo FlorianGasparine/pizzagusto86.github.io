@@ -14,3 +14,21 @@
     width: 25px;
   }
 }
+
+.section__icone {
+  margin: 60px auto 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+
+  &--background {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fac56f53;
+  }
+
+  &--imgSize {
+    width: 35px;
+    background-color: transparent;
+  }
+}
