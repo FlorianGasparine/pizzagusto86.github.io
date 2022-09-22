@@ -49,7 +49,7 @@ body {
 }
 
 .aside__location {
-  margin: 40px auto 20px auto;
+  margin: 10px auto 5px auto;
 }
 .aside__location__list {
   padding: 0px;
@@ -131,16 +131,36 @@ body {
   gap: 20px;
 }
 .section__pizzas--positionTitle {
+  color: #1d1d1d;
   margin: 30px auto 20px 10px;
 }
 
 .article__pizzas {
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
   width: 200px;
-  height: auto;
-  border: 1px solid red;
+  border: 3px solid rgba(254, 158, 4, 0.3254901961);
+  border-radius: 45px;
   padding: 20px;
-  background: rgba(255, 0, 0, 0.25);
+  background: rgba(250, 197, 111, 0.3254901961);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2039215686);
+}
+.article__pizzas__image {
+  margin: 0 auto;
+  width: 120px;
+}
+.article__pizzas__title {
+  color: #1d1d1d;
+  text-align: center;
+}
+.article__pizzas__price {
+  color: #14931d;
+  text-align: end;
+  font-weight: 800;
+}
+.article__pizzas__ingredients {
+  color: rgba(216, 17, 17, 0.7019607843);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

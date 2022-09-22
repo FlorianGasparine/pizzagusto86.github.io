@@ -46,15 +46,39 @@
   justify-content: center;
   gap: 20px;
   &--positionTitle {
+    color: $black;
     margin: 30px auto 20px 10px;
   }
 }
 
 .article__pizzas {
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
   width: 200px;
-  height: auto;
-  border: 1px solid red;
+  border: 3px solid #fe9e0453;
+  border-radius: 45px;
   padding: 20px;
-  background: rgba(255, 0, 0, 0.25);
+  background: #fac56f53;
+  box-shadow: 0px 0px 5px 1px #00000034;
+
+  &__image {
+    margin: 0 auto;
+    width: 120px;
+  }
+
+  &__title {
+    color: $black;
+    text-align: center;
+  }
+
+  &__price {
+    color: $secondaryColor;
+    text-align: end;
+    font-weight: 800;
+  }
+
+  &__ingredients {
+    color: $primaryColor;
+    text-align: center;
+  }
 }
