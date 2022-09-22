@@ -1,0 +1,16 @@
+.header__arrow {
+  &--position {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &--direction {
+    rotate: 180deg;
+    width: 25px;
+  }
+}

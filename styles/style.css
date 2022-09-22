@@ -79,4 +79,18 @@
   transition: 250ms;
 }
 
+.header__arrow--position {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  opacity: 0.8;
+}
+.header__arrow--position:hover {
+  opacity: 1;
+}
+.header__arrow--direction {
+  rotate: 180deg;
+  width: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
