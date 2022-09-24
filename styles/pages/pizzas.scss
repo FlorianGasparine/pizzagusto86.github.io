@@ -15,31 +15,6 @@
   }
 }
 
-.section__icone {
-  position: relative;
-  margin: 60px auto 10px auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-flow: wrap;
-
-  &--styleLink {
-    display: block;
-    margin: 0 auto;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #fac56f53;
-
-    &--focused {
-      background-color: $tertiaryColor;
-    }
-  }
-
-  &--imgSize {
-    width: 35px;
-    background-color: transparent;
-  }
-}
-
 .section__pizzas {
   display: flex;
   flex-flow: row wrap;
@@ -50,45 +25,12 @@
     margin: 30px auto 20px 10px;
   }
 }
-
-.article__pizzas {
-  display: flex;
-  flex-flow: column wrap;
-  width: 200px;
-  border: 3px solid #fe9e0453;
-  border-radius: 45px;
-  padding: 20px;
-  background: #fac56f53;
-  box-shadow: 0px 0px 5px 1px #00000034;
-
-  &__image {
-    margin: 0 auto;
-    width: 120px;
-  }
-
-  &__title {
-    color: $black;
-    text-align: center;
-  }
-
-  &__price {
-    color: $secondaryColor;
-    text-align: end;
-    font-weight: 800;
-  }
-
-  &__ingredients {
-    color: $primaryColor;
-    text-align: center;
-  }
-}
-
-.sectionRow__pizzas {
+.section__pizzas {
   width: 350px;
   margin: 30px auto 20px auto;
 }
 
-.articleRow__pizzas {
+.article__pizzas {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -108,7 +50,7 @@
   &__ingredients {
     text-align: center;
     color: $primaryColor;
-    margin: 9px 5px auto 10px;
+    margin: 9px 10px auto 10px;
   }
 
   &__title {

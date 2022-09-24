@@ -106,28 +106,6 @@ body {
   width: 25px;
 }
 
-.section__icone {
-  position: relative;
-  margin: 60px auto 10px auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-flow: wrap;
-}
-.section__icone--styleLink {
-  display: block;
-  margin: 0 auto;
-  padding: 15px;
-  border-radius: 15px;
-  background-color: rgba(250, 197, 111, 0.3254901961);
-}
-.section__icone--styleLink--focused {
-  background-color: #ffb800;
-}
-.section__icone--imgSize {
-  width: 35px;
-  background-color: transparent;
-}
-
 .section__pizzas {
   display: flex;
   flex-flow: row wrap;
@@ -139,40 +117,12 @@ body {
   margin: 30px auto 20px 10px;
 }
 
-.article__pizzas {
-  display: flex;
-  flex-flow: column wrap;
-  width: 200px;
-  border: 3px solid rgba(254, 158, 4, 0.3254901961);
-  border-radius: 45px;
-  padding: 20px;
-  background: rgba(250, 197, 111, 0.3254901961);
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2039215686);
-}
-.article__pizzas__image {
-  margin: 0 auto;
-  width: 120px;
-}
-.article__pizzas__title {
-  color: #1d1d1d;
-  text-align: center;
-}
-.article__pizzas__price {
-  color: #14931d;
-  text-align: end;
-  font-weight: 800;
-}
-.article__pizzas__ingredients {
-  color: rgba(216, 17, 17, 0.7019607843);
-  text-align: center;
-}
-
-.sectionRow__pizzas {
+.section__pizzas {
   width: 350px;
   margin: 30px auto 20px auto;
 }
 
-.articleRow__pizzas {
+.article__pizzas {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -182,24 +132,24 @@ body {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2039215686);
   height: 190px;
 }
-.articleRow__pizzas__image {
+.article__pizzas__image {
   grid-column: 1;
   grid-row: 1/4;
   margin: auto 0px auto 15px;
   width: 120px;
 }
-.articleRow__pizzas__ingredients {
+.article__pizzas__ingredients {
   text-align: center;
   color: rgba(216, 17, 17, 0.7019607843);
-  margin: 9px 5px auto 10px;
+  margin: 9px 10px auto 10px;
 }
-.articleRow__pizzas__title {
+.article__pizzas__title {
   color: #1d1d1d;
   text-align: center;
   margin-right: 18px;
   margin-bottom: 0px;
 }
-.articleRow__pizzas__price {
+.article__pizzas__price {
   color: #14931d;
   text-align: end;
   font-weight: 800;
