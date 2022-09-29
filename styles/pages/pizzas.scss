@@ -15,6 +15,40 @@
   }
 }
 
+.aside__pizza__week {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 45px;
+  background-color: rgb(250 197 111 / 0.1);
+  box-shadow: 0px 0px 5px 1px #00000034;
+  padding: 15px;
+  // height: 190px;
+
+  &__containerLink {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  &--linkWidth {
+    width: 50px;
+  }
+
+  &--title {
+    color: $black;
+    text-align: center;
+    margin-right: 18px;
+    margin-bottom: 0px;
+    font-weight: 400;
+  }
+  &--text {
+    text-align: center;
+    color: rgb(216 17 17);
+    // color: $primaryColor;
+    margin: 9px 10px auto 10px;
+  }
+}
+
 .container__pizza--desktopPosition {
   @media screen and (min-width: 768px) {
     display: flex;
