@@ -15,6 +15,15 @@
   }
 }
 
+.container__pizza--desktopPosition {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .section__pizzas {
   display: flex;
   flex-flow: row wrap;
@@ -22,10 +31,14 @@
   gap: 20px;
 
   &--positionTitle {
-    color: $black;
     margin: 30px auto 20px 10px;
+    color: $black;
     font-size: 28px;
     font-weight: 500;
+
+    @media screen and (min-width: 1024px) {
+      margin: 50px auto 15px 50px;
+    }
   }
 }
 .section__pizzas {
@@ -52,7 +65,8 @@
 
   &__ingredients {
     text-align: center;
-    color: $primaryColor;
+    color: rgb(216 17 17);
+    // color: $primaryColor;
     margin: 9px 10px auto 10px;
   }
 
