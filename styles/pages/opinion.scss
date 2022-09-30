@@ -3,7 +3,7 @@
   max-width: 1000px;
   background-color: #ece5da;
   border-radius: 10px;
-  height: 420px;
+  height: 510px;
   box-shadow: 0px 0px 4px 2px #00000036;
 
   @media screen and (min-width: 1000px) {
@@ -25,18 +25,33 @@
     text-align: center;
   }
 
-  &__text__mail {
+  &__text__mailSms {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 55px 15px 15px 15px;
     font-style: normal;
   }
+
+  &__text__containerEmail {
+    margin-top: -10px;
+  }
+
+  &__accroche {
+    display: block;
+    margin-bottom: 35px;
+
+    &--marginSms {
+      margin-right: 14px;
+    }
+    &--marginEmail {
+      margin-right: 7px;
+      font-size: 14px;
+    }
+  }
+
   &__mail {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 15px;
-    padding: 10px;
+    padding: 10px 50px;
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -51,6 +66,22 @@
       background-color: darken($color: #258d0fd6, $amount: 2);
       box-shadow: 0px 3px 3px 1px #00000074;
       transition: 200ms;
+    }
+
+    &--bgOpacity {
+      margin-left: 5px;
+      padding: 8px 35px;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      background-color: rgba(216, 17, 17, 0.565);
+      box-shadow: 0px 2px 3px 1px #0000002a;
+
+      &:hover {
+        background-color: darken($color: #248d0f87, $amount: 2);
+        box-shadow: 0px 3px 3px 1px #00000074;
+        transition: 200ms;
+      }
     }
   }
 }
