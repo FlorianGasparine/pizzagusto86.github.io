@@ -98,6 +98,45 @@ body {
   transition: 250ms;
 }
 
+.otherPage {
+  margin: 50px auto 15px auto;
+}
+.otherPage--opinion {
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(37, 141, 15, 0.78);
+  box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.3764705882);
+}
+.otherPage--opinion:hover {
+  background-color: rgba(35, 132, 14, 0.8392156863);
+  box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.5411764706);
+  transition: 250ms;
+}
+.otherPage--service {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(37, 141, 15, 0.78);
+  box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.3764705882);
+}
+.otherPage--service:hover {
+  background-color: rgba(35, 132, 14, 0.8392156863);
+  box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.5411764706);
+  transition: 250ms;
+}
+
 .container__footer {
   display: flex;
   width: 100%;
@@ -261,6 +300,50 @@ body {
   font-weight: 500;
   margin-right: 20px;
   margin-top: 22px;
+}
+
+.sectionOpinion {
+  margin: 50px 15px;
+  max-width: 1000px;
+  background-color: #ece5da;
+  border-radius: 10px;
+  height: 420px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2117647059);
+}
+@media screen and (min-width: 1000px) {
+  .sectionOpinion {
+    margin: 50px auto;
+  }
+}
+.sectionOpinion__title {
+  text-align: center;
+  color: #14931d;
+}
+.sectionOpinion__paragraph {
+  margin: 40px 15px auto 15px;
+  text-align: center;
+}
+.sectionOpinion__text__mail {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 55px 15px 15px 15px;
+  font-style: normal;
+}
+.sectionOpinion__mail {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 15px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgba(216, 17, 17, 0.7019607843);
+}
+.sectionOpinion__mail:hover {
+  background-color: rgba(35, 132, 14, 0.8392156863);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5411764706);
+  transition: 250ms;
 }
 
 /*# sourceMappingURL=style.css.map */

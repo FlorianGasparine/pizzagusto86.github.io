@@ -1,0 +1,46 @@
+.sectionOpinion {
+  margin: 50px 15px;
+  max-width: 1000px;
+  background-color: #ece5da;
+  border-radius: 10px;
+  height: 420px;
+
+  box-shadow: 0px 0px 4px 2px #00000036;
+
+  @media screen and (min-width: 1000px) {
+    margin: 50px auto;
+  }
+
+  &__title {
+    text-align: center;
+    color: #14931d;
+  }
+
+  &__paragraph {
+    margin: 40px 15px auto 15px;
+    text-align: center;
+  }
+
+  &__text__mail {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 55px 15px 15px 15px;
+    font-style: normal;
+  }
+  &__mail {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgba(216, 17, 17, 0.7019607843);
+    &:hover {
+      background-color: darken($color: #258d0fd6, $amount: 2);
+      box-shadow: 0px 0px 2px 1px #0000008a;
+      transition: 250ms;
+    }
+  }
+}

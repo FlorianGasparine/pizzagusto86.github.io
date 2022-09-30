@@ -88,6 +88,46 @@
   }
 }
 
+.otherPage {
+  margin: 50px auto 15px auto;
+  &--opinion {
+    margin-right: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(37 141 15 / 78%);
+    box-shadow: 1px 4px 2px 1px #00000060;
+    &:hover {
+      background-color: darken($color: #258d0fd6, $amount: 2);
+      box-shadow: 1px 4px 2px 1px #0000008a;
+      transition: 250ms;
+    }
+  }
+
+  &--service {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(37 141 15 / 78%);
+    box-shadow: 1px 4px 2px 1px #00000060;
+    &:hover {
+      background-color: darken($color: #258d0fd6, $amount: 2);
+      box-shadow: 1px 4px 2px 1px #0000008a;
+      transition: 250ms;
+    }
+  }
+}
+
 .container__footer {
   display: flex;
   width: 100%;
@@ -100,7 +140,6 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
-  // background-color: #e1b36b;
   background-color: #06060617;
   border-radius: 15px 0px 0px 0px;
   box-shadow: 1px 2px 5px 2px #00000060;
