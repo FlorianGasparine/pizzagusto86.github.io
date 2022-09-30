@@ -3,12 +3,16 @@
   max-width: 1000px;
   background-color: #ece5da;
   border-radius: 10px;
-  height: 450px;
-
+  height: 420px;
   box-shadow: 0px 0px 4px 2px #00000036;
 
   @media screen and (min-width: 1000px) {
     margin: 50px auto;
+  }
+  &__underline {
+    display: block;
+    padding: 1px;
+    background-color: #ffc66d7d;
   }
 
   &__title {
@@ -37,10 +41,12 @@
     text-decoration: none;
     border-radius: 10px;
     background-color: rgba(216, 17, 17, 0.7019607843);
+    box-shadow: 0px 2px 3px 1px #0000002a;
+
     &:hover {
       background-color: darken($color: #258d0fd6, $amount: 2);
-      box-shadow: 0px 0px 2px 1px #0000008a;
-      transition: 250ms;
+      box-shadow: 0px 3px 3px 1px #00000074;
+      transition: 200ms;
     }
   }
 }
