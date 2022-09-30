@@ -21,7 +21,7 @@
   }
 
   &__paragraph {
-    margin: 40px 15px auto 15px;
+    margin: 30px 15px auto 15px;
     text-align: center;
   }
 
@@ -42,6 +42,10 @@
     border-radius: 10px;
     background-color: rgba(216, 17, 17, 0.7019607843);
     box-shadow: 0px 2px 3px 1px #0000002a;
+
+    @media screen and (min-width: 425px) {
+      width: 312px;
+    }
 
     &:hover {
       background-color: darken($color: #258d0fd6, $amount: 2);
