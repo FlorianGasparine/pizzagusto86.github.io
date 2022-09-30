@@ -382,6 +382,10 @@ body {
   transition: 200ms;
 }
 
+.footerOpinion {
+  padding: 50px;
+}
+
 .section__service {
   margin: 50px 15px;
   max-width: 1000px;
