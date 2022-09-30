@@ -357,4 +357,47 @@ body {
   transition: 200ms;
 }
 
+.section__service {
+  margin: 50px 15px;
+  max-width: 1000px;
+  background-color: #ece5da;
+  border-radius: 10px;
+  height: 370px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2117647059);
+}
+@media screen and (min-width: 768px) {
+  .section__service {
+    margin: 50px auto;
+  }
+}
+.section__service__linkPhone {
+  text-decoration: none;
+}
+.section__service__phone {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  color: #14931d;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+.section__service__titleH2 {
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  font-weight: 400;
+}
+.section__service__listLocation {
+  padding: 0px;
+  list-style-type: none;
+}
+.section__service__listLocation--element {
+  text-align: center;
+}
+.section__service__listLocation--element--bold {
+  display: block;
+  margin-top: 15px;
+  color: rgba(216, 17, 17, 0.7019607843);
+}
+
 /*# sourceMappingURL=style.css.map */
