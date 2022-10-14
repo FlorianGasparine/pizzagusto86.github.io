@@ -12,4 +12,4 @@ Projet réalisé pour un restaurateur.
 
 ## Consulter le site :
 
-✔ https://floriangasparine.github.io/pizzagusto86.github.io/
+✔ http://pizzagusto86.fr
